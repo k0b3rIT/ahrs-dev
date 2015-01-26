@@ -20,7 +20,7 @@ void setup() {
 
 // The loop function is called in an endless loop
 void loop() {
-	delay(1000);
+	delay(500);
 	gyro.readGyroRawCal(&x, &y, &z);
 	Serial.print(x);
 	Serial.print(" ");
